@@ -18,7 +18,7 @@
 + (void)alertWithTitle:(NSString *)title message:(NSString *)message;
 + (void)alertWithTitle:(NSString *)title
                message:(NSString *)message
-              delegate:(id<UIAlertViewDelegate>)delegate
- additionalButtonTitle:(NSString *)additionalButtonTitle;
+ additionalButtonTitle:(NSString *)additionalButtonTitle
+ additionalButtonHandler:(void (^)(void))handler;
 
 @end
